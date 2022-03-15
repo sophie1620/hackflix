@@ -33,7 +33,7 @@ function MovieInfo() {
 
             setDetails(apiData.data);
         })
-    }, [])
+    }, [movie_id])
 
     console.log(details)
 
